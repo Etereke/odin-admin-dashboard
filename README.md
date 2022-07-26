@@ -2,6 +2,6 @@
 
 Project made for [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
 
-The goal was to make a page layout mostly using grid.
+The goal was to make a page layout mostly using grid. 
 
 [Live preview](https://etereke.github.io/odin-admin-dashboard/)
