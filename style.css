@@ -154,13 +154,13 @@ body{
 .card{
     display: grid;
     grid-template-rows: 40px 1fr 30px;
-    width: 300px;
     min-height: 180px;
     background-color: white;
     padding: 15px 15px;
     border-radius: 10px;
     border-left: 10px solid orange;
     box-shadow: 0 0 3px 1px lightgray;
+    box-sizing: border-box;
 }
 
 .card > h4{
@@ -177,10 +177,8 @@ body{
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-/*     
-    justify-items: start;
-    gap: 2rem 1rem;*/
+    justify-items: center;
+    gap: 30px;
 } 
 .icons{
     justify-self: end;
